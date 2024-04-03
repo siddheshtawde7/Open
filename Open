@@ -1,0 +1,83 @@
+prct 1
+Step 1 : Create a New Project.
+Step 2: Name the New Folder as Controller 
+Right click on Controller and Add > Controller
+Select MVC Controller Empty
+Add name, here we are leaving it on default name HomeController.cs and clicking
+Add at the bottom of the screen
+Step 3: In the HomeController.cs we have an Index() method, right click on Index() >
+Add View
+Select RazorView - Empty and Add and name the View, we are keeping the default name
+for our View as Index.cshtml
+Select RazorView - Empty and Add and name the View, we are keeping the default name
+for our View as Index.cshtml
+Now go to startup.cs file and within the ConfigureService method put the command
+services.AddMvc();
+Now, make a new folder in the project and name it as Models, within Models > Add Class
+> Animals
+Within Animals.cs :
+Now go to HomeController.cs
+
+prct 4 
+apt-get -y update
+apt-get -y install vim
+apt-get -y install firefox
+apt-get -y install software-
+properties-commonadd- apt-
+repository ppa:deadsnakes/ppa
+apt-get -y install python
+docker volume –help
+docker volume create
+<volumename> : To create
+volumedocker volume ls : To
+list volume
+docker volume inspect <volumename>
+docker volume rm
+<volumename> : to delete
+volumedocker volume prune
+: to delete all unused
+volumes 
+docker volume create myvol
+docker volume ls
+docker volume inspect
+docker run –name myjenkins1 –v myvol:/var/Jenkins_home -p
+8080:8080 –p 50000:50000 Jenkins:2.60.3
+
+prct-5
+docker swarm init --advertise-addr <MANAGER-IP>
+docker swarm leave <MANAGER-IP>
+docker info
+docker node ls 
+docker service create --replicas 1 --name helloworld alpine ping docker.com
+docker service create --replicas 3 --name redis --update-delay 10s redis:3.0.6
+docker service update --image redis:3.0.7 redis
+
+prct-6
+dotnet newconsole -o firstapp
+cd firstapp
+dotnet build
+dotnetrun
+Step 4:- Click the “create new file” button on the repo page .
+And type “ .circle/config.yml”.
+3332 Omkar C. Velonde
+36 | P a g e
+Step 5:- AInsert the code in “config.yml” file.
+version: 2 jobs:
+build:
+docker:
+• image:
+circleci/ruby:2.
+4.1 steps:
+• checkout
+• run: echo "A first hello"
+Step 6:- LOGIN CircleCI account, USING GITHUB/BITBUCKET Create
+Step 7:- To add your new repo, ensure that your GitHub account is selected in the
+dropdown in the upper-left, Select the Add Projects page, and find the repository you
+just created in the list (you can also search for it), then click the Set Up Project button
+next to it.
+On the following screen, choose a language from the dropdown to get a pre-populated
+config.yml file with suggested best-practices for your project. If the language you are
+using is not in the list, click the “Use Hello World” button at the bottom of the list. Copy
+the YAML configuration that appears and save it as a file called “config.yml” in a folder
+named .circleci in the root of your repository’s directory.
+Step 8:- Click on “Start Building” button
